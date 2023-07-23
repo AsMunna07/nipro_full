@@ -1,0 +1,544 @@
+/*font start*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&display=swap');
+/*font end*/
+/*common css start*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+/*common css end*/
+/*header start*/
+.header{
+	color: white;
+}
+.logo{
+	font-size: 30px;
+}
+.menu{
+	margin-right: 40px;
+
+}
+.menu ul li a{
+	margin-right: 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #8e8e8e;
+	transition: .33s;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.btn_dd{
+	border: 0;
+}
+.btn_dd i{
+	font-size: 16px;
+	color: #8e8e8e;
+}
+.btn_dd::after{
+	display: none;
+} 
+.dd_menu{
+	width: 300px;
+	border-radius: 0;
+	padding: 10px 10px;
+}
+.dd_menu[data-bs-popper] {
+	top: 55px;
+    left: -260px;
+    margin-top: var(--bs-dropdown-spacer);
+}
+.d_input{
+	width: 100%;
+	height: 50px;
+	border: 0;
+}
+.d_input:focus {
+
+    box-shadow: none;
+ }
+.dd_btn{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border: 0;
+}
+.dd_btn i{
+	color: #8e8e8e;
+}
+/*header end*/
+/*banner start*/
+.slider{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.s_item{
+	margin: 200px 0 200px;
+	color: white;
+}
+.c_title{
+	font-family:'Lato', sans-serif;
+	font-size: 60px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 45px;
+}
+.c_p{
+	color: #fff;
+	margin-bottom: 45px;
+}
+.slider_button{
+}
+.c_button{
+	padding: 15px 15px 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333;
+	border: none;
+	text-transform: uppercase;
+	background-color: white;
+}
+.c_button span i{
+	padding-left: 10px;
+
+}
+.c_btn_next_prev{
+	font-size: 16px;
+	color: #8e8e8e;
+	background: white;
+	border: none;
+	transition: .33s;
+}
+.c_btn_next_prev:hover {
+
+	color: black;
+}
+
+/*banner end*/
+/*service start*/
+.c_padding{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.service{
+}
+.c_title{}
+.c_shape{
+	width: 2px;
+	height: 50px;
+	background-color: #333;
+}
+.s_h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #333;
+}
+.s_service{
+	margin-top: 70px;
+	padding: 70px 15px 35px;
+	border: 1px solid #8e8e8e;
+	transition: .3s;
+}
+.s_service:hover{
+	border: 1px solid #333333;
+}
+.s_service:hover .s_icon i{
+	color: #333333;
+}
+.s_service:hover .s_a{
+	color: #333333;
+}
+.s_service:hover .s_a span{
+	color: #333333;
+}
+
+.c_sshape{
+	width: 70px;
+	height: 1px;
+	background-color: #333;
+}
+.s_icon{
+	margin: -90px auto 0;
+	background-color: white;
+	width: 70px;
+}
+.s_icon i{
+
+	font-size: 60px;
+	color: #8e8e8e;
+	transition: .3s;
+}
+.s_h2{
+	margin: 40px 0 18px;
+	font-size: 18px;
+	color: #333;
+}
+.s_p{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-size: 16px;
+	color: #8e8e8e;
+}
+.s_a{
+	text-decoration: none;
+	color: #8e8e8e;
+	transition: .3s;
+}
+.s_a span{}
+.s_a span i{
+    font-size: 15px;
+}
+/*service end*/
+/*About start*/
+.about{}
+.about_img{}
+.about_img img{
+	width: 100%;
+}
+.about_text{
+}
+.about_h1{
+	color: black;
+	padding-top: 20px;
+}
+.about_p{
+	line-height: 30px;
+	padding-bottom: 35px;
+}
+.about_p span{
+}
+.about_a{
+	padding: 15px 15px 15px;
+	color: #8e8e8e;
+	text-decoration: none;
+	border: 1px solid black;
+	text-transform: uppercase;
+}
+.about_a i{
+	padding-left: 10px;
+	color: #8e8e8e;
+}
+/*About end*/
+/*Recent work start*/
+.recent_work{}
+.c_title{}
+.s_h1{}
+.c_nitem{
+
+}
+.c_nt_link{
+	margin: 20px 20px 20px;
+	text-transform: uppercase;
+    text-decoration: none;
+	color: #8e8e8e;
+}
+.rw_img{
+	position: relative;
+}
+.rw_img img{
+	width: 100%;
+}
+.rw_overlay{
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: .3s;
+}
+.rw_overlay_icon{}
+.rw_overlay_icon i{
+	position: absolute;
+    right: 42%;
+    bottom: 50%;
+	font-size: 60px;
+	color: white;
+}
+.rw_overlay_text{
+	padding: 15px 30px;
+	position: absolute;
+	bottom: -50px;
+	width: 100%;
+	background-color: white;
+	transition: .3s;
+}
+.rw_overlay_text h4{
+	font-size: 18px;
+	color: black;
+}
+.rw_overlay_text p{
+	font-size: 16px;
+	color: #8e8e8e;
+}
+.rw_img:hover .rw_overlay{
+	opacity: 1;
+}
+.rw_img:hover .rw_overlay_text{
+	opacity: 1;
+	bottom: 0;
+}
+/*Recent work end*/
+/*why choose nipro start*/
+.wc_nipro{
+}
+.wc_nipro_icon{
+	position: relative;
+}
+.wc_nipro_icon i{
+	font-size: 60px;
+}
+.wcn_h4{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-left: 20px;
+	position: absolute;
+	top: 0;
+	right: 30%;
+	bottom: 0%;
+
+}
+.wcn_p{}
+/*why choose nipro end*/
+/*who work with us start*/
+.who_work_with_us{
+	background-image: url(../images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50px;
+}
+.wwrwus_img{
+}
+.wwrwus_img img{
+	width: 100%;
+}
+.wwrwus_text{
+	text-transform: uppercase;
+	background-color: white;
+
+}
+.wrwus_h4{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 18px;
+    color: black;
+}
+.wrwus_p{
+	padding-bottom: 10px ;
+	text-align: center;
+	font-size: 16px;
+}
+/*who work with us end*/
+/*Best pricing start*/
+.best_pricing{
+	padding-bottom: 50px;
+}
+.best_text{
+	padding: 50px 0 60px;
+	border: 1px solid #8e8e8e;
+}
+.bp_h2{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-size: 18px;
+	background-color: white;
+	color: #333;
+	width: 100px;
+	margin: -60px 25px 0;
+
+}
+.bp_p{
+	font-size: 36px;
+	color: #333333;
+}
+.bp_p span{
+	font-size: 18px;
+	color: #8e8e8e;
+}
+.best_text ul{
+}
+.best_text ul li{
+	padding-left: 20px;
+	line-height: 27px;
+	padding-bottom: 10px;
+}
+.bp_btn{
+	padding: 20px 40px 20px;
+	border: 1px solid #8e8e8e !important;
+	color: #8e8e8e;
+
+}
+.bp_btn  span{}
+.bp_btn span i{
+	margin-left: 10px;
+
+}
+/*Best pricing end*/
+/*Nipro html start*/
+.nipro_res_html{
+	opacity: 0.5;
+	background-color: wheat;
+}
+.nipro_html_text{
+	font-size: 18px;
+	color: black !important;
+}
+.nipro_html_text{}
+.n_p{
+	color: black;
+	text-transform: uppercase;
+	padding: 50px 0 50px;
+}
+.nipro_html_text p span{
+
+}
+
+.n_html_a{
+	color: black;
+	text-transform: uppercase;
+	border: 1px solid black;
+	padding: 20px 20px 20px ;
+}
+.n_html_a span{
+	color: black;
+}
+.n_html_a span i{
+	padding: 20px 0 20px;
+	margin: 30px 20px 20px ;
+}
+/*Nipro html end*/
+/*slider2 start*/
+.slider_2{
+	border: 1px solid #8e8e8e;
+}
+.s2_item{}
+.s2_img{}
+.s2_img img{
+	width: 100%;
+}
+.s2_text{}
+.s2_h4{
+	font-size: 18px;
+	color: #333333;
+}
+.s2_p1{
+	font-size: 18px;
+	color: #8e8e8e;
+}
+.s2_p2{
+	font-size: 18px;
+	color: #8e8e8e;
+}
+.s2_p3{
+	font-size: 16px;
+	color: #8e8e8e;
+	line-height: 50px;
+}
+.raihan_btn {
+	padding: 50px 0 50px;
+	float: right;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-color: #F8F8F8;
+    border: 1px solid #8e8e8e;
+}
+.r_btn {
+	background-color: transparent;
+	border: none ;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*slider 2 end*/
+
+/*form start*/
+.form {
+	padding: 0 0 100px;
+}
+.f_h2 {
+	color: black;
+	text-transform: uppercase;
+    margin: -46px;
+}
+.name {
+	margin: 36px 20px;
+	border-bottom: 1px solid black;
+}
+.name input {
+	border: 0;
+}
+.f_brdr {
+	margin-left: 40px;
+}
+.name input p {
+	padding: 30px 0 55px;
+}
+.frm_btn {
+	font-size: 18px;
+	padding: 20px 20px;
+	margin: 40px 0 40px;
+	background-color: white;
+}
+/*form end*/
+
+/*footer start*/
+footer {
+	padding: 0 0 25px;
+	background-image: url(../images/banner3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.f_h2 {
+	padding: 38px 0;
+}
+.f_top {
+	color: white;
+}
+.ft_p {
+	padding: 50px;
+	line-height: 34px;
+}
+.f_icon{
+    padding-top: 20px;
+    font-size: 25px;
+   }
+.f_icon i {
+	border: 1px solid white;
+	padding: 5px ;
+}
+.f_top1 {
+    margin-top: 90px;
+    }
+.f_icon i:hover{
+	color: black;
+    background-color: white;
+   }
+.f_text_p{
+    color: white;
+   }
+.f_nav a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: .33s;
+   }
+.f_nav a:hover{
+    color: ##8e8e8e;
+   }
+.icon_hover {
+    transition: .33s;	
+}
+.icon_hover:hover{
+    color: #000000 !important;
+   }
+/*footer end*/

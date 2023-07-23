@@ -1,0 +1,89 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*Header start*/
+.logo{
+	font-size:28px;
+}
+.dd_menu{
+	width: 280px;
+	padding: 5px 5px;
+}
+.dd_menu[data-bs-popper] {
+	top: 53px;
+    left: -10px;
+} 
+.d_input{
+	height: 40px;
+}
+.dd_btn{
+	height: 40px;	
+}
+/*banner start*/
+.c_title{
+	text-align: center;
+	font-size: 28px;
+}
+.c_p{
+    text-align: center;
+}
+.c_button{
+    padding: 10px 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+}
+/*about start*/
+.about_p {
+    line-height: 25px;
+}
+.about_a {
+    padding: 10px 10px 10px;
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*Header start*/
+.dd_menu[data-bs-popper] {
+	top: -10px;
+    left: 60px;
+} 
+/*banner start*/
+.c_title {
+    font-size: 48px;   
+}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*Header start*/
+.dd_menu[data-bs-popper] {
+	top: -25px;
+    left: 60px;
+}
+/*banner start*/
+.c_title{
+	text-align: center;
+	font-size: 50px;
+}
+.c_p{
+    text-align: center;
+}
+.c_button{
+	text-align: center;
+}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner start*/
+.c_title{
+	font-size: 50px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width:1399.98px) {
+
+}
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px ) {
+	
+}
